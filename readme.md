@@ -72,10 +72,11 @@ A.func2()
 
 ### 2020-11-23
 
-之前的ssh添加私钥只能暂时生效，不能永久生效，需要在.ssh文件夹下添加config文件，添加如下内容
+* 先把ssh私钥文件（以rsa为例)放到云桌面的.ssh文件夹下
+* 在.ssh文件下创建config文件，写入如下内容
 ```
 Host *
-    HostName github
+    HostName [服务器]
     PreferredAuthentications publickey
     IdentityFile ~/.ssh/rsa
     User jiangchenrui
@@ -127,4 +128,6 @@ def __name__ == '__main__':
 
 ### 2020-11-30
 
-修改公会任务配置
+rocket修改公会任务配置和关卡配置
+
+### 
