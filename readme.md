@@ -130,4 +130,62 @@ def __name__ == '__main__':
 
 rocket修改公会任务配置和关卡配置
 
-### 
+### 2020-12-03
+
+inbox collect_gift_coin优化，将所有if-elif分开，放到一个大字典中，下一步优化：将收奖分为三步，第一获取v1和v2，第二，第三更新返回值
+
+### 2020-12-04
+
+使用跳板机连接测试服
+
+```
+ssh-add .ssh/jiangchenrui_p.pem
+
+screen -r s03
+```
+ctrl+a+d退出当前命令行，继续执行
+
+使用less查看日志
+
+## [git操作](https://www.ruanyifeng.com/blog/2015/12/git-cheat-sheet.html)
+
+查看项目所用分支：
+```
+git branch -a
+```
+
+删除本地分支:
+```
+git branch -d <BranchName>
+```
+
+删除远程分支
+```
+git push origin --delete<BranchName>
+```
+
+### 2020-12-07
+
+部署bingo并测试代码，修改inbox代码
+
+### 2020-12-08
+
+inbox代码调用修改
+
+### 2020-12-09
+
+inbox分支测试，import导入模块有错误，原因为activity导入inbox模块，inbox使用的collect又调用activity，以及旧方法导入不正确导致的。
+
+### 2020-12-10
+
+[数据库事务ACID特性](https://blog.csdn.net/u012440687/article/details/52116108)\
+
+* 原子性(Atomicity)
+    事务是一个不可再分割的工作单元
+* 一致性(Consisitency)
+    事务开始之前和事务结束以后，数据库的完整性约束没有被破坏
+* 隔离性(Isolation)
+    多个事务并发访问时，事务之间是隔离的
+* 持久性(Durability)
+    事务完成后对数据库所作的更改便持久的保存在数据库中
+
