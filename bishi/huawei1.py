@@ -51,8 +51,6 @@ if __name__ == '__main__':
         list1 = list(list1.split())
         inputList.append(list1)
     for item in getEarlyPerson(inputList):
-        print(item, end=' ')
-    print()
+        print item,
     for item in getLatePerson(inputList):
-        print(item, end=' ')
-    print()
+        print item
