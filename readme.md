@@ -231,3 +231,18 @@ atw活动，scheduler部署，journey活动需要加atw的5选1
 ### 2020-12-23
 
 列表、元组、字典、集合、字符串都为可迭代对象，可以使用isinstance(obj, Iterable)判断obj是否为可迭代对象
+[yield使用](https://liam.page/2017/06/30/understanding-yield-in-python/)
+
+### 2020-12-24
+
+journey上线
+
+### 2020-12-25
+
+cooking奖励修改，python 130题
+
+### 2020-12-28
+
+atw代码阅读，完成1-5atw活动
+
+### 2020-12-29
