@@ -204,7 +204,7 @@ def just_test():
     counter.count()
     counter.count()
     print counter.publicCount
-    print counter._JustCounter__secretCount
+    print counter.__secretCount
 
 def regex_test():
     print(re.match('www', 'www.runoob.com').span())
