@@ -12,7 +12,6 @@ class CashNormal(CashSuper):
         return money
 
 
-
 class CashRebate(CashSuper):
 
     discount = 1

@@ -61,7 +61,7 @@ class IFactory:
 class AccessFactory(IFactory):
 
     def CreateUser(self):
-        temp=CAccessUser()
+        temp = CAccessUser()
         return temp
 
     def CreateDepartment(self):
