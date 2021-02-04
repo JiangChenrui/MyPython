@@ -4,9 +4,11 @@
 * 开闭原则(OCP)
 * 依赖倒转(ASD)
 * 里氏代换(LSP)
+* 合成聚合复用
 * 迪米特法则
     如果两个类不必彼此直接通信，那么这两个类就不应当发生直接的相互作用，如果其中一个类需要调用另一个类的某一个方法的话，可以通过第三者转发这个调用
 
+**内聚性描述的是一个例程内部组成部分之间相互联系的紧密程度。而耦合性描述的是一个例程与其他例程之间联系的紧密程度。软件开发的目标应该是创建这样的例程：内部完整，也就是高内聚，而与其他例程之间的联系则是小巧、直接、可见、灵活的，这就是松耦合[DPE]**
 
 ## 简单工厂模式
 
@@ -702,8 +704,8 @@ class SqlFactory(IFactory):
 
 if __name__ == "__main__":
     factory = SqlFactory()
-    user=factory.CreateUser()
-    depart=factory.CreateDepartment()
+    user = factory.CreateUser()
+    depart = factory.CreateDepartment()
     user.GetUser()
     depart.GetDepartment()
 ```
