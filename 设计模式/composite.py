@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-
+# 组合模式
 class Component:
 
     def __init__(self,strName):

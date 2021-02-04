@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-
+# 外观模式
 class SubSystemOne:
 
     def MethodOne(self):

@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
-
-
+# 状态模式
 class State(object):
 
     def writeProgram(self, work):

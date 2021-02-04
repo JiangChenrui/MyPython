@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# 原型模式
 import copy
 
 

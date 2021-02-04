@@ -314,3 +314,5 @@ inbox合并主分支
 ### 2021-01-26
 
 prize hunt后端修改
+
+test_server_debug添加测试打印

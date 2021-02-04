@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-
+# 适配器模式
 class Player(object):
     
     def __init__(self, name):

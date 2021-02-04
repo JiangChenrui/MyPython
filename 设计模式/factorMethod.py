@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-
+# 工厂方法模式
 class Leifeng(object):
 
     def Sweep(self):
@@ -38,8 +38,8 @@ class VolenterFactory(LeifenFactory):
 
 if __name__ == "__main__":
     sf = StudentFactory()
-    s=sf.createLeifeng()
+    s = sf.createLeifeng()
     s.Sweep()
     sdf = VolenterFactory()
-    sd=sdf.createLeifeng()
+    sd = sdf.createLeifeng()
     sd.Sweep()

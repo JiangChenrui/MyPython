@@ -1,6 +1,8 @@
 # -*- coding: utf-8 -*-
-
+# 简单工厂模式
 class Operation(object):
+    op1 = 0
+    op2 = 0
 
     def getResult(self):
         pass

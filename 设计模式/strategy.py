@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# 策略模式
 
 class CashSuper(object):
 

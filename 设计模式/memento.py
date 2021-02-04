@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-
+# 备忘录模式
 class Originator(object):
 
     def __init__(self):

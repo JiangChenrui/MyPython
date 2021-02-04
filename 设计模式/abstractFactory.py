@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-
+# 抽象工厂
 class IUser:
 
     def GetUser(self):
