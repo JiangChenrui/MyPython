@@ -1,5 +1,6 @@
 #-*-coding:utf-8-*-
 
+import time
 from abc import ABCMeta, abstractmethod
 class Employee(ABCMeta):
     """员工(抽象类)"""
@@ -57,5 +58,32 @@ def main():
         print(emp.name, emp.get_salary())
 
 
+def print_prime(n):
+    for i in range(2, n):
+        for j in range(2, i):
+            if i % j == 0:
+                break
+        else:
+            print '%d is a prime number' % i
+
+
+class Student(object):
+
+    def __init__(self,name, course=[]):
+        self.name = name
+        self.course = course
+
+    def addcourse(self,coursename):
+        self.course.append(coursename)
+
+    def printcourse(self):
+        for item in self.course:
+            print item
+
+
 if __name__ == '__main__':
-    main()
+    import string
+    str1 = ' hello worLD'
+    print str1.title()
+    print string.capwords(str1)
+
