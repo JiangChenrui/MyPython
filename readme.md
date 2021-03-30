@@ -316,3 +316,16 @@ inbox合并主分支
 prize hunt后端修改
 
 test_server_debug添加测试打印
+
+**traceback**
+**[gdb调试](https://mozillazg.com/2017/07/debug-running-python-process-with-gdb.html)**
+
+[redis pipline](http://redisguide.com/pipeline-and-transaction.html)
+
+[linux常用命令](https://www.huaweicloud.com/articles/8359983.html)
+
+1213,1223,1233,1243,1253,1263,1273
+1214,1224,1234,1244,1254,1264,1274
+1215,1225,1235,1245,1255,1265,1275
+1216,1226,1236,1246,1256,1266,1276
+1217,1227,1237,1247,1257,1267,1277
