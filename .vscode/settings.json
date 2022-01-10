@@ -1,19 +1,4 @@
 {
     "python.pythonPath": "/Users/bole/work/venv/bin/python",
-    "python.formatting.provider": "yapf",
-    "sqltools.connections": [
-        {
-            "mysqlOptions": {
-                "authProtocol": "xprotocol"
-            },
-            "previewLimit": 50,
-            "server": "192.168.201.201",
-            "port": 3306,
-            "driver": "MySQL",
-            "name": "server",
-            "username": "root",
-            "database": "phoenix",
-            "password": "1qaz2wsx!@1qaz2wsx!@"
-        }
-    ]
+    "python.formatting.provider": "yapf"
 }
