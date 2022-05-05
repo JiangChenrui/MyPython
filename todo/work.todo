@@ -487,26 +487,54 @@
 1-6:
     ✔ BC_31 @started(22-01-04 09:54) @done(22-01-04 09:54) @lasted(47s)
     ✔ 20085-FRENZY FERRIS（改邮票赛季末） @started(22-01-06 14:32) @done(22-01-06 14:32) @lasted(38s)
-    ✔ 20427-邮票赛季末LEVEL RUSH3天 @started(22-01-06 14:35) @done(22-01-06 14:35) @lasted(34s)
     ✔ 20431-LUCKY CHARM X2+BONUS @started(22-01-06 14:34) @done(22-01-06 14:36) @lasted(2m52s)
-    ✔ 95-UPGRADE STAMPS @started(22-01-06 14:34) @done(22-01-06 14:44) @lasted(10m26s)
     ✔ 20422-邮票赛季末prize hunt @started(22-01-06 14:34) @done(22-01-06 14:34) @lasted(47s)
     ✔ 20428-cbo三选一 @started(22-01-06 19:09) @done(22-01-06 19:09) @lasted(6s)
 
 1-11:
-    ☐ gof
-    ☐ MP37
+    ✔ gof @started(22-01-18 22:03) @done(22-01-18 22:03) @lasted(12s)
+    ✔ MP37 @started(22-01-18 22:03) @done(22-01-18 22:03) @lasted(16s)
     ☐ 【优化新增】无尽促销逻辑优化
-    ☐ 邮票赛季末 sale
+    ✔ 95-UPGRADE STAMPS @started(22-01-06 14:34) @done(22-01-06 14:44) @lasted(10m26s)
+    ✔ 20416-邮票赛季末 sale @started(22-01-10 16:01) @done(22-01-10 16:01) @lasted(57s)
 1-13:
-    ☐ rocket
-    ☐ VIP POWER UP换皮
-    ☐ 通用LUCKY CHARM X2换皮
-    ☐ BYD 赛季末 FRENZY MISSION
-    ☐ BYD赛季末CBO
-    ☐ BYD赛季末SPIN UP
-    ☐ BYD赛季末LUCKY WINNER
-    ☐ BYD 赛季末LUCKY CHARM*2+WILD碎片
+    ✔ rocket @started(22-01-18 22:03) @done(22-01-18 22:03) @lasted(3s)
+    ✔ 20427-邮票赛季末LEVEL RUSH3天 @started(22-01-06 14:35) @done(22-01-06 14:35) @lasted(34s)
+    ✔ 22201-BYD 赛季末 FRENZY MISSION @started(22-01-11 17:15) @done(22-01-11 17:15) @lasted(36s)
+    ✔ 20035-VIP POWER UP换皮 @started(22-01-11 17:02) @done(22-01-11 17:02) @lasted(23s)
+
+1-18:
+    ✔ 23-通用LUCKY CHARM X2换皮 @started(22-01-11 17:02) @done(22-01-11 17:12) @lasted(10m50s)
+    ✔ 22205-BYD赛季末CBO @started(22-01-11 17:19) @done(22-01-11 17:19) @lasted(31s)
+    ✔ 22007-BYD赛季末SPIN UP @started(22-01-11 17:22) @done(22-01-11 17:22) @lasted(35s)
+    ✔ 22001-BYD赛季末LUCKY WINNER @started(22-01-11 17:30) @done(22-01-11 17:30) @lasted(35s)
+    ✔ 22217-BYD赛季末LUCKY CHARM*2+WILD碎片 @started(22-01-11 17:31) @done(22-01-11 17:31) @lasted(14s)
+    ✔ 22208-BYD赛季末SBD @started(22-01-18 10:16) @done(22-01-18 10:16) @lasted(33s)
+    ✔ 22221-BYD赛季末二选一 @started(22-01-18 10:17) @done(22-01-18 10:17) @lasted(33s)
+1-20:
+    ✔ archer @started(22-02-14 09:29) @done(22-02-14 09:29) @lasted(41s)
+    ✔ 20202-BYD赛季末商店5选1 @started(22-01-20 15:10) @done(22-01-20 15:10) @lasted(23s)
+    ✔ 22218-BYD赛季末CBO @started(22-01-20 15:10) @done(22-01-20 15:10) @lasted(21s)
+    ✔ 22216-BYD赛季末LEVELRUSH推图（3天） @started(22-01-20 15:09) @done(22-01-20 15:09) @lasted(4s)
+
+1-25:
+    ✔ journey @started(22-02-14 09:29) @done(22-02-14 09:29) @lasted(38s)
+    ✔ MP_S38 @started(22-02-14 09:29) @done(22-02-14 09:29) @lasted(38s)
+    ✔ 21009-中国新年促销 @started(22-01-26 15:25) @done(22-01-26 15:25) @lasted(18s)
+    ✔ 21007中国新年coupon @started(22-01-21 14:55) @done(22-01-21 14:55) @lasted(44s)
+    ✔ 21024-中国新年mb促销 @started(22-01-21 14:58) @done(22-01-21 14:58) @lasted(35s)
+    ✔ 22206-BYD换季SALE @started(22-01-21 15:02) @done(22-01-21 15:02) @lasted(35s)
+    ✔ 22203-BYD换季COUPON @started(22-01-21 15:02) @done(22-01-21 15:02) @lasted(51s)
+    ✔ 22215-BYD赛季末LEVEL RUSH 1天 @started(22-01-21 14:59) @done(22-01-21 14:59) @lasted(19s)
+1-27:
+    ✔ pick @started(22-02-14 09:29) @done(22-02-14 09:29) @lasted(59s)
+    ✔ bingo @started(22-02-14 09:29) @done(22-02-14 09:29) @lasted(59s)
+
+2-15:
+    ✔ cooking @started(22-02-17 18:21) @done(22-02-17 18:21) @lasted(32s)
+    ✔ 21015-总统日2合1促销 @started(22-02-17 18:21) @done(22-02-17 18:22) @lasted(1m47s)
+2-17:
+    ☐ 20040-通用STB换皮 @started(22-02-17 18:21)
+    ✔ coupon新增弹窗 @started(22-02-17 18:22) @done(22-02-17 18:22) @lasted(50s)
 
 
-tower修改小游戏日志前缀

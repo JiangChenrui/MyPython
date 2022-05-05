@@ -178,7 +178,7 @@ inbox分支测试，import导入模块有错误，原因为activity导入inbox�
 
 ### 2020-12-10
 
-[数据库事务ACID特性](https://blog.csdn.net/u012440687/article/details/52116108)\
+[数据库事务ACID特性](https://blog.csdn.net/u012440687/article/details/52116108)
 
 * 原子性(Atomicity)
     事务是一个不可再分割的工作单元
@@ -316,6 +316,8 @@ inbox合并主分支
 prize hunt后端修改
 
 test_server_debug添加测试打印
+
+
 
 **traceback**
 **[gdb调试](https://mozillazg.com/2017/07/debug-running-python-process-with-gdb.html)**
