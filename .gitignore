@@ -3,3 +3,4 @@ nohup.out
 *.pyc
 .python-version
 .DS_Store
+.idea
