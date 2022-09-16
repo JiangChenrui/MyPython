@@ -5,3 +5,4 @@ nohup.out
 .DS_Store
 .idea
 mp_prize
+redis_test.py
