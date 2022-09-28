@@ -14,12 +14,10 @@ python学习记录
    ```shell
    export PYENV_ROOT="$HOME/.pyenv"
    export PATH="$PYENV_ROOT/bin:$PATH"
-   
-   if which pyenv > /dev/null;
-     then eval "$(pyenv init -)";
-   fi
+   eval "$(pyenv init --path)"
+   eval "$(pyenv init -)"
    ```
-
+   
    之后在命令行输入`source ~/.zshrc`刷新配置
 
 3. pyenv常用命令
