@@ -4,5 +4,6 @@ nohup.out
 .python-version
 .DS_Store
 .idea
+.venv
 mp_prize
 redis_test.py
