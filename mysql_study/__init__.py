@@ -1,30 +1,32 @@
 # -*- coding: utf-8  -*-
 from contextlib import contextmanager
 import json
-from sqlalchemy import Column, Integer, String, create_engine, and_
+import time
+from sqlalchemy import Column, Index, UniqueConstraint, Integer, String, create_engine, and_
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 
 BASE = declarative_base()
 
-class SystemNotice(BASE):
+class CompensationList(BASE):
 
-    __tablename__ = "system_notice"
+    __tablename__ = "compenstation_list"
     id = Column(Integer, primary_key=True)
-    user_id = Column(Integer, index=True)
-    title = Column(String(64), default='')
-    prize_info = Column(String(64), default='')
+    user_id = Column(Integer, default=0)
+    notice_id = Column(Integer, default=0)
+    prize_info = Column(String(1024), default='')
 
     def __repr__(self):
         ret = {
             'id': self.id,
-            'title': self.title,
+            'user_id': self.user_id,
+            'notice_id': self.notice_id,
             'prize_info': self.prize_info
         }
         return json.dumps(ret)
 
 
-engine = create_engine('mysql+pymysql://root@localhost:3306/test', echo=False)
+engine = create_engine('mysql+pymysql://root:123456@localhost:3306/test', echo=False)
 BASE.metadata.create_all(engine)
 
 DBsession = sessionmaker(bind=engine)
@@ -42,13 +44,17 @@ def get_db_session():
     finally:
         session.close()
 
-# for i in range(10):
-#     with get_db_session() as db_session:
-#         new_system_notice = SystemNotice()
-#         new_system_notice.user_id = 16789
-#         new_system_notice.title = 'test'
-#         new_system_notice.prize_info = '{"cash": 1}'
-#         db_session.add(new_system_notice)
+# start_ts = time.time()
+# with get_db_session() as db_session:
+#     for notice_id in range(3):
+#         for i in range(1000):
+#             compensation_list = CompensationList()
+#             compensation_list.user_id = i
+#             compensation_list.notice_id = notice_id
+#             compensation_list.prize_info = '{"chips": 1}'
+#             db_session.add(compensation_list)
+# end_ts = time.time()
+# print(end_ts-start_ts)
 
 
 # with get_db_session() as db_session:
@@ -57,8 +63,10 @@ def get_db_session():
 #     result.prize_info = '{"cash": 2}'
 #     db_session.merge(result)
 
+ret = {}
 with get_db_session() as db_session:
-    query_list = [SystemNotice.user_id == str(16789)]
-    sys_notice = db_session.query(SystemNotice.id).filter(*query_list).order_by(SystemNotice.id.desc()).limit(20).all()
-    print(sys_notice)
+    compensation_list = db_session.query(CompensationList).filter_by(notice_id=1).all()
+    for i in compensation_list:
+        ret[i.user_id] = json.loads(i.prize_info)
+print(ret)
     

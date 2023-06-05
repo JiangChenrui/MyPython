@@ -2,6 +2,5 @@
     "python.formatting.provider": "yapf",
     "cSpell.words": [
         "sqlalchemy"
-    ],
-    "workbench.colorTheme": "Solarized Light"
+    ]
 }
