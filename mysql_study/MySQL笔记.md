@@ -19,6 +19,9 @@ brew services start mysql
 * 数据库分配单位：段
 
 ## 索引
+
+### 索引分类
+
 1. 索引是帮助MySQL高效获取数据的数据结构
 	  * 优点
 		* 降低数据库IO成本
@@ -41,3 +44,10 @@ brew services start mysql
 		* 二级索引访问需要两次索引查找
 3. 二级索引
 4. 联合索引
+
+### 索引设计原则
+1. 字段的数值有唯一性的限制
+2. 频繁作为WHERE查询条件对字段
+3. 经常GROUP BY和ORDER BY的列
+4. UPDATE, DELETE的WHERE条件列
+5. 
