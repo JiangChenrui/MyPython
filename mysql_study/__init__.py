@@ -1,9 +1,10 @@
 # -*- coding: utf-8  -*-
 from contextlib import contextmanager
+import datetime
 import json
 import random
 import time
-from sqlalchemy import Column, Index, UniqueConstraint, Integer, String, create_engine, and_
+from sqlalchemy import Column, DateTime, Index, UniqueConstraint, Integer, String, create_engine, and_
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 
@@ -29,6 +30,7 @@ class CompensationList(BASE):
     id = Column(Integer, primary_key=True)
     user_id = Column(Integer, default=0)
     notice_id = Column(Integer, default=0)
+    first_login = Column(DateTime, default=None)
     
     __table_args__ = (
         UniqueConstraint(user_id, notice_id, name='compensation_unique'),
@@ -54,6 +56,7 @@ class UserInfoExtra(BASE):
     __tablename__ = "user_info_extra"
     id = Column(Integer, primary_key=True)
     theme_free_and_bonus_data = Column(String(2048), name='yy8')
+    first_login = Column(DateTime, default=None)
 
     theme_free_and_bonus = None
 
@@ -103,16 +106,16 @@ class UserInfoExtra(BASE):
 
 
 # start_ts = time.time()
-with get_db_session() as db_session:
-    for notice_id in range(3):
-        for i in range(1000):
-            compensation_list = CompensationList()
-            compensation_list.user_id = i
-            compensation_list.notice_id = notice_id
-            db_session.add(compensation_list)
+# with get_db_session() as db_session:
+#     for notice_id in range(3):
+#         for i in range(1000):
+#             compensation_list = CompensationList()
+#             compensation_list.user_id = i
+#             compensation_list.notice_id = notice_id
+#             compensation_list.first_login = datetime.datetime.now()
+#             db_session.add(compensation_list)
 # end_ts = time.time()
 # print(end_ts-start_ts)
-
 
 # with get_db_session() as db_session:
 #     result = db_session.query(SystemNotice).filter_by(id=1).first()

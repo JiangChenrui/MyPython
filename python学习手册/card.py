@@ -1,8 +1,9 @@
 import collections
+import random
 
 Card = collections.namedtuple('Card', ['rank', 'suit'])
 
-class FrenchDeck:
+class FrenchDeck(object):
     ranks = [str(n) for n in range(2, 11)] + list('JQKA')
     suits = 'spades diamonds clubs hearts'.split()
 
@@ -15,3 +16,13 @@ class FrenchDeck:
     def __getitem__(self, position):
         return self._cards[position]
     
+deck = FrenchDeck()
+suit_values = dict(spades=3, hearts=2, diamonds=1, clubs=0)
+
+def spades_high(card):
+    rank_value = FrenchDeck.ranks.index(card.rank)
+    return rank_value * len(suit_values) + suit_values[card.suit]
+
+for card in sorted(deck, key=spades_high):
+    print(card)
+
