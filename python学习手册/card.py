@@ -15,7 +15,7 @@ class FrenchDeck(object):
     
     def __getitem__(self, position):
         return self._cards[position]
-    
+
 deck = FrenchDeck()
 suit_values = dict(spades=3, hearts=2, diamonds=1, clubs=0)
 

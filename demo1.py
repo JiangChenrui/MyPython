@@ -293,7 +293,7 @@ def numReverse(num):
 """
 百钱百鸡
 """
-def maneyAndChicken():
+def moneyAndChicken():
     for x in range(0, 20):
         for y in range(0, 33):
             z = 100 - x - y
@@ -429,7 +429,7 @@ if __name__ == "__main__":
     # MySQL_test()
     # findNum()
     # numReverse(123123)
-    # maneyAndChicken()
+    # moneyAndChicken()
     # craps()
     # perfectNum()
     # prime()

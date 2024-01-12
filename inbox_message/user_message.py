@@ -27,7 +27,7 @@ def get_user_message():
 def run():
     db_init()
     user_message = get_user_message()
-    print user_message.user_id
+    print(user_message.user_id)
 
 run()
 
