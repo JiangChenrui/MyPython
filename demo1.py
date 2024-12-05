@@ -5,7 +5,6 @@ import glob
 import time
 import math
 import re
-import MySQLdb
 from random import randint
 from datetime import date
 
@@ -257,6 +256,7 @@ def regex_test():
     print result
 
 def MySQL_test():
+    import MySQLdb
     db = MySQLdb.connect('localhost', 'root', '', 'TESTDB', charset='utf8')
     cursor = db.cursor()
     cursor.execute("DROP TABLE IF EXISTS EMPLOYEE")
@@ -400,6 +400,21 @@ def is_prime(num):
             return False
     return True if num != 1 else False
 
+def test1():
+    from main import DEBUG, debug_init
+    print('******test1******')
+    print(DEBUG, id(DEBUG))
+    debug_init()
+    print(DEBUG, id(DEBUG))
+
+
+def test2():
+    import main
+    print('******test2******')
+    print(main.DEBUG, id(main.DEBUG))
+    main.debug_init()
+    print(main.DEBUG, id(main.DEBUG))
+
 if __name__ == "__main__":
     # print(str2int('12314123414'))
     # print filter(is_odd, [i for i in range(10)])
@@ -433,4 +448,6 @@ if __name__ == "__main__":
     # craps()
     # perfectNum()
     # prime()
-    pass
+    test1()
+    test2()
+    print(sys.module)
