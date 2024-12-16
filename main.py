@@ -9,3 +9,4 @@ blur_img = cv2.GaussianBlur(img, (225, 225), 0)
 
 # 保存处理后的图像
 cv2.imwrite('output.jpg', blur_img)
+
