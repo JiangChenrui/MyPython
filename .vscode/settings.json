@@ -2,5 +2,6 @@
     "python.formatting.provider": "yapf",
     "cSpell.words": [
         "sqlalchemy"
-    ]
+    ],
+    "python.analysis.typeCheckingMode": "basic"
 }
