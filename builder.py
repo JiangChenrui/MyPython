@@ -1,72 +1,78 @@
 # -*- coding: utf-8 -*-
-class Product(object):
-    
+class Product:
+    """产品类，包含多个部件"""
+
     def __init__(self):
         self.parts = []
 
-    def Add(self, part):
+    def add(self, part):
+        """添加部件"""
         self.parts.append(part)
 
-    def Show(self):
-        for part in self.parts:
-            print part,
-        print
+    def show(self):
+        """展示产品所有部件"""
+        print("产品包含部件：", "，".join(self.parts))
 
-class Builder(object):
+
+class Builder:
+    """抽象建造者"""
 
     def __init__(self):
         self.product = Product()
 
-    def BuildPartA(self):
-        pass
+    def build_part_a(self):
+        """构建部件A"""
+        raise NotImplementedError
 
-    def BuildPartB(self):
-        pass
+    def build_part_b(self):
+        """构建部件B"""
+        raise NotImplementedError
 
-    def GetResult(self):
-        pass
+    def get_result(self):
+        """获取最终产品"""
+        return self.product
 
 
 class ConcreteBuilder1(Builder):
+    """具体建造者1"""
 
-    def BuildPartA(self):
-        self.product.Add('部件A')
-    
-    def BuildPartB(self):
-        self.product.Add('部件B')
+    def build_part_a(self):
+        self.product.add('部件A')
 
-    def GetResult(self):
-        return self.product
+    def build_part_b(self):
+        self.product.add('部件B')
 
 
 class ConcreteBuilder2(Builder):
+    """具体建造者2"""
 
-    def BuildPartA(self):
-        self.product.Add('部件X')
-    
-    def BuildPartB(self):
-        self.product.Add('部件Y')
+    def build_part_a(self):
+        self.product.add('部件X')
 
-    def GetResult(self):
-        return self.product
+    def build_part_b(self):
+        self.product.add('部件Y')
 
 
-class Director(object):
+class Director:
+    """指挥者类，控制建造过程"""
 
-    def ConSruct(self, builder):
-        builder.BuildPartA()
-        builder.BuildPartB()
+    def construct(self, builder):
+        """构建产品"""
+        builder.build_part_a()
+        builder.build_part_b()
 
 
 if __name__ == '__main__':
     director = Director()
-    b1 = ConcreteBuilder1()
-    b2 = ConcreteBuilder2()
 
-    director.ConSruct(b1)
-    p1 = b1.GetResult()
-    p1.Show()
+    # 使用建造者1构建产品
+    builder1 = ConcreteBuilder1()
+    director.construct(builder1)
+    product1 = builder1.get_result()
+    product1.show()
 
-    director.ConSruct(b2)
-    p2 = b2.GetResult()
-    p2.Show()
+    # 使用建造者2构建产品
+    builder2 = ConcreteBuilder2()
+    director.construct(builder2)
+    product2 = builder2.get_result()
+    product2.show()
