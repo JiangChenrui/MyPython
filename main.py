@@ -30,24 +30,3 @@ def gaussian_blur(image_path, output_path, kernel_size=(225, 225), sigma=0):
 
 gaussian_blur('input.jpeg', 'output.jpeg')
 
-def update_spin_progress(self, bet):
-    ret = {}
-    delta_progress = FestivalSystemMath.spin_progress(
-        bet, self._one_dollar, self._ctx.property.r_level,
-        self._daily_spin_token, 'valentines_2025'
-    )
-    if delta_progress > 0:
-        self._progress += delta_progress
-        self._progress = round(self._progress, 2)
-        if self._progress >= 1:
-            self._progress = 1
-            extra_log = [['from', 'spin']]
-            ret.update(self.add_pass_point(self._SPIN_TOKEN, extra_log=extra_log))
-            self._daily_spin_token += self._SPIN_TOKEN
-            ret.update({
-                'valentines_progress': self._progress
-            })
-        if self._progress >= 1:
-            self._progress = 0
-    return {'valentines_pass_status': ret}
-
