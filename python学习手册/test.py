@@ -1,3 +1,4 @@
+from collections import UserDict, UserList, deque
 import os
 import time
 from concurrent.futures import ThreadPoolExecutor, ProcessPoolExecutor
