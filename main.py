@@ -158,58 +158,74 @@ def update_badge_task(ctx, ret, task_type, win, game_type, extra_info, **kwargs)
     return delta_current
 
 
-def update_badge_bonus_task(ctx, ret, win, extra_info, badge_index, **kwargs):
-    """处理bonus类型的任务"""
-    if ctx.theme.data['badge_info'][badge_index]:
-        delta = ctx.theme.data['badge_info'][badge_index]
-        ctx.theme.data['badge_info'][badge_index] = 0
-        return delta
-    return 0
-
-def update_badge_free_task(ctx, ret, win, extra_info, badge_index, **kwargs):
-    """处理free类型的任务, 进度固定加1"""
+def update_badge_bonus_task_fixed(ctx, ret, win, extra_info, badge_index, **kwargs):
+    """处理bonus类型的任务，固定返回1"""
     delta = 1
     ctx.theme.data['badge_info'][badge_index] = 0
     return delta
 
-def update_badge_normal_task(ctx, ret, win, extra_info, badge_index, **kwargs):
-    """处理普通任务"""
+def update_badge_bonus_task_dynamic(ctx, ret, win, extra_info, badge_index, **kwargs):
+    """处理bonus类型的任务，返回badge_info中的值"""
     if ctx.theme.data['badge_info'][badge_index]:
         delta = ctx.theme.data['badge_info'][badge_index]
         ctx.theme.data['badge_info'][badge_index] = 0
         return delta
     return 0
 
+def update_badge_free_task_fixed(ctx, ret, win, extra_info, badge_index, **kwargs):
+    """处理free类型的任务，固定返回1"""
+    delta = 1
+    ctx.theme.data['badge_info'][badge_index] = 0
+    return delta
 
-# game_type: 需要匹配的游戏类型（None 表示不需要匹配）
-# badge_index: 对应的徽章索引
-# handler: 徽章任务处理方法
+def update_badge_free_task_dynamic(ctx, ret, win, extra_info, badge_index, **kwargs):
+    """处理free类型的任务，返回badge_info中的值"""
+    if ctx.theme.data['badge_info'][badge_index]:
+        delta = ctx.theme.data['badge_info'][badge_index]
+        ctx.theme.data['badge_info'][badge_index] = 0
+        return delta
+    return 0
 
+def update_badge_normal_task_fixed(ctx, ret, win, extra_info, badge_index, **kwargs):
+    """处理普通任务，固定返回1"""
+    delta = 1
+    ctx.theme.data['badge_info'][badge_index] = 0
+    return delta
+
+def update_badge_normal_task_dynamic(ctx, ret, win, extra_info, badge_index, **kwargs):
+    """处理普通任务，返回badge_info中的值"""
+    if ctx.theme.data['badge_info'][badge_index]:
+        delta = ctx.theme.data['badge_info'][badge_index]
+        ctx.theme.data['badge_info'][badge_index] = 0
+        return delta
+    return 0
+
+# 更新配置
 TASK_CONFIG = {
     104691: {
         'game_type': 'bonus',
         'badge_index': 0,
-        'handler': update_badge_bonus_task
+        'handler': update_badge_bonus_task_dynamic
     },
     104692: {
         'game_type': None,
         'badge_index': 1,
-        'handler': update_badge_normal_task
+        'handler': update_badge_normal_task_dynamic
     },
     104693: {
         'game_type': 'bonus',
         'badge_index': 2,
-        'handler': update_badge_bonus_task
+        'handler': update_badge_bonus_task_dynamic
     },
     104694: {
         'game_type': 'free',
         'badge_index': 3,
-        'handler': update_badge_free_task
+        'handler': update_badge_free_task_fixed
     },
     104695: {
         'game_type': 'bonus',
         'badge_index': 4,
-        'handler': update_badge_bonus_task
+        'handler': update_badge_bonus_task_dynamic
     },
 }
 
