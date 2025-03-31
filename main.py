@@ -250,10 +250,10 @@ class TestBadgeTasks(unittest.TestCase):
         """运行测试用例并比较新旧方法的结果"""
         ctx_old = copy.deepcopy(self.ctx)
         ctx_new = copy.deepcopy(self.ctx)
-        
+
         delta_old = update_badge_task(ctx_old, self.ret, task_type, True, game_type, {})
         delta_new = update_badge_task_new(ctx_new, self.ret, task_type, True, game_type, {})
-        
+
         self.assertEqual(delta_old, delta_new)
         self.assertEqual(ctx_old.theme.data['badge_info'], ctx_new.theme.data['badge_info'])
         self.assertEqual(delta_new, expected_delta)
@@ -261,27 +261,27 @@ class TestBadgeTasks(unittest.TestCase):
     def test_bonus_task_104691(self):
         """测试BONUS类型的任务104691"""
         self._run_test_case(104691, 'bonus', 5)
-        
+
     def test_normal_task_104692(self):
         """测试普通任务104692"""
         self._run_test_case(104692, 'any', 3)
-        
+
     def test_bonus_task_104693(self):
         """测试BONUS类型的任务104693"""
         self._run_test_case(104693, 'bonus', 2)
-        
+
     def test_free_task_104694(self):
         """测试FREE类型的任务104694"""
         self._run_test_case(104694, 'free', 1)
-        
+
     def test_bonus_task_104695(self):
         """测试BONUS类型的任务104695"""
         self._run_test_case(104695, 'bonus', 4)
-        
+
     def test_invalid_game_type(self):
         """测试无效的游戏类型"""
         self._run_test_case(104691, 'free', 0)
-        
+
     def test_invalid_task_type(self):
         """测试无效的任务类型"""
         self._run_test_case(999999, 'bonus', 0)
