@@ -10,3 +10,4 @@ mp_prize
 redis_test.py
 *.jpeg
 *.jpg
+*.png
