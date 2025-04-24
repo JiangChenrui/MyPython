@@ -8,3 +8,5 @@ nohup.out
 venv
 mp_prize
 redis_test.py
+*.jpeg
+*.jpg
