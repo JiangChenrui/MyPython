@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "读书笔记.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "读书笔记"
+              "title": "README"
             }
           }
         ]
@@ -143,13 +143,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "读书笔记.md",
+                "file": "README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "读书笔记 的大纲"
+              "title": "README 的大纲"
             }
           }
         ],
@@ -157,8 +157,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -171,5 +170,9 @@
     }
   },
   "active": "bbb8fcd6e8fd4d99",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "input.jpeg",
+    "image-20231226101706544.png",
+    "读书笔记.md"
+  ]
 }

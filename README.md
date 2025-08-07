@@ -35,6 +35,7 @@ python学习记录
     # 卸载 python 版本
     pyenv uninstall 3.x
     ```
+
 4. MySQL 的连接池使用情况可以通过以下两种方式查看：
     
     1. 查看 MySQL 的全局状态：执行 `show global status like '%thread%';` 命令，可以查看所有的线程相关的状态信息。其中，常见的线程状态如下：
@@ -51,9 +52,20 @@ python学习记录
     - Sending data: 表示当前线程正在向客户端传输数据。
     - Writing to net: 表示当前线程正在将数据写入网络套接字。
     - Sorting result: 表示当前线程正在对结果进行排序。
-
 通过这两种方式，我们可以查看连接池的连接情况、当前线程的状态，以及运行状态。可以根据这些信息来了解 MySQL 数据库当前的连接池状况。
 
+5.python离线安装包
+```shell
+# 在联网机器
+mkdir fastapi-deps
+cd fastapi-deps
+pip download fastapi
+
+# 复制文件夹到离线机器后
+cd fastapi-deps
+pip install --no-index --find-links=. *
+
+```
 ## 使用python对图片进行高斯模糊
 
 ```python
