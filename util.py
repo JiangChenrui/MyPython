@@ -38,4 +38,4 @@ if __name__ == "__main__":
     with ProcessPoolExecutor() as executor:
         numbers = [35] * 4
         executor.map(fib, numbers)
-    print("多进程耗时:", time.time() - start) 
+    print("多进程耗时:", time.time() - start)

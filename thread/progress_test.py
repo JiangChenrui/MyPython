@@ -21,12 +21,29 @@ Python 3通过`asyncio`模块和`await`和`async`关键字（在Python 3.7中正
 """
 
 import asyncio
+import logging
+import time
+
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s - %(levelname)s - %(message)s",
+    handlers=[logging.StreamHandler()]  # 输出到终端
+)
+
+
+def timeit(f):
+
+    def wrapper(*args, **kwargs):
+        start = time.time()
+        ret = f(*args, **kwargs)
+        logging.info(f"共耗时 {round(time.time()-start, 4)}s")
+        return ret
+    return wrapper
 
 
 def num_generator(m, n):
     """指定范围的数字生成器"""
     yield from range(m, n + 1)
-
 
 async def prime_filter(m, n):
     """素数过滤器"""
@@ -38,7 +55,7 @@ async def prime_filter(m, n):
                 flag = False
                 break
         if flag:
-            print('Prime =>', i)
+            logging.info(f'Prime =>{i}')
             primes.append(i)
         await asyncio.sleep(0.001)
     return tuple(primes)
@@ -48,17 +65,18 @@ async def square_mapper(m, n):
     """平方映射器"""
     squares = []
     for i in num_generator(m, n):
-        print('Square =>', i * i)
+        logging.info(f'Square =>{i*i}')
         squares.append(i * i)
         await asyncio.sleep(0.001)
     return squares
 
 
+@timeit
 def main():
     """主函数"""
     loop = asyncio.get_event_loop()
     future = asyncio.gather(prime_filter(2, 100), square_mapper(1, 100))
-    future.add_done_callback(lambda x: print(x.result()))
+    future.add_done_callback(lambda x: logging.info(x.result()))
     loop.run_until_complete(future)
     loop.close()
 

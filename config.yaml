@@ -47,6 +47,7 @@ proxies:
   - {name: "🇨🇳 [IPv6]TW 02", server: ipv6.relay.qchwnd.moe, port: 23336, type: trojan, password: 3cea7737-2530-4739-8ff2-d17f873f45c2, sni: moe233-qwbm-twsn.csair.com, skip-cert-verify: true, udp: true}
   - {name: "🇸🇬 [IPv6]SG 01", server: ipv6.relay.qchwnd.moe, port: 23320, type: trojan, password: 3cea7737-2530-4739-8ff2-d17f873f45c2, sni: moe233-qwbm-sgm2.csair.com, skip-cert-verify: true, udp: true}
   - {name: "🇸🇬 [IPv6]SG 02", server: ipv6.relay.qchwnd.moe, port: 23325, type: trojan, password: 3cea7737-2530-4739-8ff2-d17f873f45c2, sni: moe233-qwbm-sgcc.csair.com, skip-cert-verify: true, udp: true}
+
 proxy-groups:
   - name: 🚀 节点选择
     type: select
