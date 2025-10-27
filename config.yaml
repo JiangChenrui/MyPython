@@ -357,6 +357,14 @@ proxy-groups:
       - 🇨🇳 [IPv6]TW 02
       - 🇸🇬 [IPv6]SG 01
       - 🇸🇬 [IPv6]SG 02
+
+dns:
+  enable: true
+  hosts:
+    '*.jcrnas.top': '192.168.0.133'  # 强制将域名解析为指定IP
+  nameserver:
+    - '192.168.0.1'  # 默认DNS服务器（可选）
+
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -364,7 +372,7 @@ rules:
   - DOMAIN-SUFFIX,lan,🎯 全球直连
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - DOMAIN-SUFFIX,localhost,🎯 全球直连
-  - DOMAIN-SUFFIX,jcrnas.top,🎯 全球直连
+  # - DOMAIN-SUFFIX,jcrnas.top,🎯 全球直连
   - IP-CIDR,0.0.0.0/8,🎯 全球直连,no-resolve
   - IP-CIDR,10.0.0.0/8,🎯 全球直连,no-resolve
   - IP-CIDR,100.64.0.0/10,🎯 全球直连,no-resolve
