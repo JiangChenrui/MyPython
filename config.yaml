@@ -16,8 +16,6 @@ tun:
   auto-detect-interface: true
 
 proxies:
-  - {name: 优先选择三网或者移动节点使用, server: 120.236.198.18, port: 23340, type: trojan, password: 3cea7737-2530-4739-8ff2-d17f873f45c2, sni: moe233-qwbm-hkte1.csair.com, skip-cert-verify: true, udp: true}
-  - {name: 客服邮箱christchen517@gmail.com, server: 120.236.198.18, port: 23340, type: trojan, password: 3cea7737-2530-4739-8ff2-d17f873f45c2, sni: moe233-qwbm-hkte1.csair.com, skip-cert-verify: true, udp: true}
   - {name: "🇭🇰 [三网]HK 01", server: 120.236.198.18, port: 23340, type: trojan, password: 3cea7737-2530-4739-8ff2-d17f873f45c2, sni: moe233-qwbm-hkte1.csair.com, skip-cert-verify: true, udp: true}
   - {name: "🇭🇰 [移动]HK 02", server: 111.47.210.112, port: 23327, type: trojan, password: 3cea7737-2530-4739-8ff2-d17f873f45c2, sni: moe233-qwbm-hkbn1.csair.com, skip-cert-verify: true, udp: true}
   - {name: "🇭🇰 [三网]HK 03", server: 120.236.198.18, port: 23342, type: trojan, password: 3cea7737-2530-4739-8ff2-d17f873f45c2, sni: moe233-qwbm-hkte3.csair.com, skip-cert-verify: true, udp: true}
@@ -54,8 +52,6 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 优先选择三网或者移动节点使用
-      - 客服邮箱christchen517@gmail.com
       - 🇭🇰 [三网]HK 01
       - 🇭🇰 [移动]HK 02
       - 🇭🇰 [三网]HK 03
@@ -91,8 +87,6 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 优先选择三网或者移动节点使用
-      - 客服邮箱christchen517@gmail.com
       - 🇭🇰 [三网]HK 01
       - 🇭🇰 [移动]HK 02
       - 🇭🇰 [三网]HK 03
@@ -128,8 +122,6 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 优先选择三网或者移动节点使用
-      - 客服邮箱christchen517@gmail.com
       - 🇭🇰 [三网]HK 01
       - 🇭🇰 [移动]HK 02
       - 🇭🇰 [三网]HK 03
@@ -164,8 +156,6 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 优先选择三网或者移动节点使用
-      - 客服邮箱christchen517@gmail.com
       - 🇭🇰 [三网]HK 01
       - 🇭🇰 [移动]HK 02
       - 🇭🇰 [三网]HK 03
@@ -200,8 +190,6 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 优先选择三网或者移动节点使用
-      - 客服邮箱christchen517@gmail.com
       - 🇭🇰 [三网]HK 01
       - 🇭🇰 [移动]HK 02
       - 🇭🇰 [三网]HK 03
@@ -236,8 +224,6 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 优先选择三网或者移动节点使用
-      - 客服邮箱christchen517@gmail.com
       - 🇭🇰 [三网]HK 01
       - 🇭🇰 [移动]HK 02
       - 🇭🇰 [三网]HK 03
@@ -273,8 +259,6 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 优先选择三网或者移动节点使用
-      - 客服邮箱christchen517@gmail.com
       - 🇭🇰 [三网]HK 01
       - 🇭🇰 [移动]HK 02
       - 🇭🇰 [三网]HK 03
@@ -326,8 +310,6 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 优先选择三网或者移动节点使用
-      - 客服邮箱christchen517@gmail.com
       - 🇭🇰 [三网]HK 01
       - 🇭🇰 [移动]HK 02
       - 🇭🇰 [三网]HK 03
@@ -360,11 +342,10 @@ proxy-groups:
 
 dns:
   enable: true
+  listen: 0.0.0.0:53
+  enhanced-mode: fake-ip
   nameserver:
     - '192.168.0.1'  # 默认DNS服务器（可选）
-
-hosts:
-  '*.jcrnas.top': '192.168.0.133'  # 强制将域名解析为指定IP
 
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
