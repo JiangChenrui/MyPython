@@ -1,6 +1,7 @@
 .ipynb_checkpoints
 nohup.out
 *.pyc
+.obsidian
 .python-version
 .DS_Store
 .idea
