@@ -39,3 +39,4 @@ if __name__ == "__main__":
         numbers = [35] * 4
         executor.map(fib, numbers)
     print("多进程耗时:", time.time() - start)
+

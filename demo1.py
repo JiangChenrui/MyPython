@@ -7,6 +7,7 @@ import math
 import re
 from random import randint
 from datetime import date
+from functools import reduce
 
 
 def str2int(s):
@@ -74,10 +75,10 @@ def AddMoney():
 
 def fileStudy():
     fo = open('foo.txt', 'w')
-    print '文件名：', fo.name
-    print '是否已关闭：', fo.closed
-    print '访问模式：', fo.mode
-    print '末尾是否强制加空格：', fo.softspace
+    print('文件名：', fo.name)
+    print('是否已关闭：', fo.closed)
+    print('访问模式：', fo.mode)
+    # 注意：softspace 属性在 Python 3 中已移除
     fo.close()
 
 def testTry():
@@ -85,9 +86,9 @@ def testTry():
         fh = open("testfile", "w")
         fh.write("测试文件，用于测试异常")
     except IOError:
-        print "Error: 没有找到文件或者读取文件失败"
+        print("Error: 没有找到文件或者读取文件失败")
     else:
-        print "内容写入文件成功"
+        print("内容写入文件成功")
         fh.close()
 
 class Employee:
@@ -100,10 +101,10 @@ class Employee:
         Employee.empCount += 1
 
     def displayCount(self):
-        print "Total Employee %d" % Employee.empCount
+        print("Total Employee %d" % Employee.empCount)
     
     def displayEmpoyee(self):
-        print "Name: ", self.name, ", Salary: ", self.salary
+        print("Name: ", self.name, ", Salary: ", self.salary)
 
 
 def employee_test():
@@ -111,18 +112,18 @@ def employee_test():
     emp2 = Employee("Manni", 5000)
     emp1.displayEmpoyee()
     emp2.displayEmpoyee()
-    print "Total Employee  %d" % Employee.empCount
+    print("Total Employee  %d" % Employee.empCount)
 
     hasattr(emp1, 'age')
     setattr(emp1, 'age', 9)
     getattr(emp1, 'age')
     delattr(emp1, 'age')
 
-    print 'Employee.__doc__:', Employee.__doc__
-    print 'Employee.__name__:', Employee.__name__
-    print 'Employee.__module__:', Employee.__module__
-    print 'Employee.__bases__:', Employee.__bases__
-    print 'Employee.__dict__:', Employee.__dict__
+    print('Employee.__doc__:', Employee.__doc__)
+    print('Employee.__name__:', Employee.__name__)
+    print('Employee.__module__:', Employee.__module__)
+    print('Employee.__bases__:', Employee.__bases__)
+    print('Employee.__dict__:', Employee.__dict__)
 
 
 class Point:
@@ -131,13 +132,13 @@ class Point:
         self.y = y
     def __del__(self):
         class_name = self.__class__.__name__
-        print class_name, '销毁'
+        print(class_name, '销毁')
 
 def point_test():
     pt1 = Point()
     pt2 = pt1
     pt3 = pt1
-    print id(pt1), id(pt2), id(pt2)
+    print(id(pt1), id(pt2), id(pt2))
     del pt1
     del pt2
     del pt3
@@ -145,23 +146,23 @@ def point_test():
 class Parent:
     parentAttr = 100
     def __init__(self):
-        print "调用父类构造函数"
+        print("调用父类构造函数")
     
     def parentMethod(self):
-        print "调用父类方法"
+        print("调用父类方法")
 
     def setAttr(self, attr):
         Parent.parentAttr = attr
 
     def getAttr(self):
-        print "父类属性:", Parent.parentAttr
+        print("父类属性:", Parent.parentAttr)
 
 class Child(Parent):
     def __init__(self):
-        print "调用子类构造方法"
+        print("调用子类构造方法")
 
     def childMethod(self):
-        print "调用子类方法"
+        print("调用子类方法")
 
 def class_test():
     c = Child()
@@ -186,7 +187,7 @@ class Vector:
 def vector_test():
     v1 = Vector(2, 10)
     v2 = Vector(5, -2)
-    print v1 + v2
+    print(v1 + v2)
 
 
 class JustCounter:
@@ -196,14 +197,14 @@ class JustCounter:
     def count(self):
         self.__secretCount += 1
         self.publicCount += 1
-        print self.__secretCount
+        print(self.__secretCount)
 
 def just_test():
     counter = JustCounter()
     counter.count()
     counter.count()
-    print counter.publicCount
-    print counter.__secretCount
+    print(counter.publicCount)
+    print(counter.__secretCount)
 
 def regex_test():
     print(re.match('www', 'www.runoob.com').span())
@@ -214,11 +215,11 @@ def regex_test():
     matchObj = re.match(r'(.*) are (.*?) .*', line, re.M | re.I)
 
     if matchObj:
-        print "matchObj.group() :", matchObj.group()
-        print "matchObj.group(1) :", matchObj.group(1)
-        print "matchObj.group(2) :", matchObj.group(2)
+        print("matchObj.group() :", matchObj.group())
+        print("matchObj.group(1) :", matchObj.group(1))
+        print("matchObj.group(2) :", matchObj.group(2))
     else:
-        print "No match!!"
+        print("No match!!")
 
     print(re.search('www', 'www.runoob.com').span())
     print(re.search('com', 'www.runoob.com').span())
@@ -226,34 +227,34 @@ def regex_test():
     # compile函数用于编译正则表达式，生成一个正则表达式对象
     pattern = re.compile(r'\d+')
     m = pattern.match('one12twothree34four')
-    print m
+    print(m)
     m = pattern.match('one12twothree34four', 2, 10)
-    print m
+    print(m)
     m = pattern.match('one12twothree34four', 3, 10)
-    print m
-    print (m.group(), m.start(), m.end(), m.span())
+    print(m)
+    print(m.group(), m.start(), m.end(), m.span())
 
     pattern = re.compile(r'([a-z]+) ([a-z]+)', re.I) # re.I是忽略大小写
     m = pattern.match('Hello World Wide Web')
-    print m
-    print (m.group(), m.span(), m.group(1), m.span(1), m.group(2), m.span(2), m.groups())
+    print(m)
+    print(m.group(), m.span(), m.group(1), m.span(1), m.group(2), m.span(2), m.groups())
 
     # findall
     # findall在字符串中找到正则表达式所匹配的所有子串，并返回一个列表，如果没有找到匹配的，则返回空列表
     pattern = re.compile(r'\d+')
     result1 = pattern.findall('runoob 123 google 456')
     result2 = pattern.findall('run88oob123google456', 0, 10)
-    print result1
-    print result2
+    print(result1)
+    print(result2)
 
     # finditer返回迭代器
     it = re.finditer(r'\d+', '12a32bc43jf3')
     for match in it:
-        print match.group()
+        print(match.group())
     
     # split能够按照匹配的子串将字符串分割后返回列表
     result = re.split('\W+', 'runoob, runoob, runoob.')
-    print result
+    print(result)
 
 def MySQL_test():
     import MySQLdb
@@ -278,7 +279,7 @@ def findNum():
         high = num // 100
         if num == low ** 3 + mid ** 3 + high ** 3:
             res.append(num)
-    print res
+    print(res)
 
 """
 正整数反转
@@ -288,7 +289,7 @@ def numReverse(num):
     while num > 0:
         res = res * 10 + num % 10
         num //= 10
-    print res
+    print(res)
 
 """
 百钱百鸡
@@ -350,7 +351,7 @@ def perfectNum():
                     result += num // factor
         if result == num:
             res.append(num)
-    print res
+    print(res)
 
 """
 输出2~99之间的素数
@@ -365,7 +366,7 @@ def prime(high = 100):
                 break
         if is_prime:
             res.append(num)
-    print res
+    print(res)
 
 """
 最大公约数
@@ -450,4 +451,4 @@ if __name__ == "__main__":
     # prime()
     test1()
     test2()
-    print(sys.module)
+    print(sys.modules)
