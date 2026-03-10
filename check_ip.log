@@ -1,258 +1,370 @@
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072db1fd0>: Failed to establish a new connection: [Errno 111] Connection refused'))
-首次检测，当前IP: 1.203.153.13
-邮件发送成功: None -> 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e9806dfd0>: Failed to establish a new connection: [Errno 111] Connection refused'))
 IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd5e50>: Failed to establish a new connection: [Errno 111] Connection refused'))
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98092990>: Failed to establish a new connection: [Errno 111] Connection refused'))
 IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd6850>: Failed to establish a new connection: [Errno 111] Connection refused'))
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98091e50>: Failed to establish a new connection: [Errno 111] Connection refused'))
 IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd5f90>: Failed to establish a new connection: [Errno 111] Connection refused'))
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98092850>: Failed to establish a new connection: [Errno 111] Connection refused'))
 IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98091f90>: Failed to establish a new connection: [Errno 111] Connection refused'))
 IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd4690>: Failed to establish a new connection: [Errno 111] Connection refused'))
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98092490>: Failed to establish a new connection: [Errno 111] Connection refused'))
 IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd51d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98090690>: Failed to establish a new connection: [Errno 111] Connection refused'))
 IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e980911d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
 IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd4e10>: Failed to establish a new connection: [Errno 111] Connection refused'))
-IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
-IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd6c10>: Failed to establish a new connection: [Errno 111] Connection refused'))
-IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd4e10>: Failed to establish a new connection: [Errno 111] Connection refused'))
-IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd5810>: Failed to establish a new connection: [Errno 111] Connection refused'))
-IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd4690>: Failed to establish a new connection: [Errno 111] Connection refused'))
-IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd60d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
-IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd6850>: Failed to establish a new connection: [Errno 111] Connection refused'))
-IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
-IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd6350>: Failed to establish a new connection: [Errno 111] Connection refused'))
-IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd4f50>: Failed to establish a new connection: [Errno 111] Connection refused'))
-IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd5d10>: Failed to establish a new connection: [Errno 111] Connection refused'))
-IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd6ad0>: Failed to establish a new connection: [Errno 111] Connection refused'))
-IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
-IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd5bd0>: Failed to establish a new connection: [Errno 111] Connection refused'))
-IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
-IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd56d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e980907d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
 IP未变化: 1.203.153.13
 IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd5810>: Failed to establish a new connection: [Errno 111] Connection refused'))
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98090e10>: Failed to establish a new connection: [Errno 111] Connection refused'))
 IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd47d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98090a50>: Failed to establish a new connection: [Errno 111] Connection refused'))
 IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd5310>: Failed to establish a new connection: [Errno 111] Connection refused'))
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98092c10>: Failed to establish a new connection: [Errno 111] Connection refused'))
 IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd5a90>: Failed to establish a new connection: [Errno 111] Connection refused'))
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98090e10>: Failed to establish a new connection: [Errno 111] Connection refused'))
 IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd4910>: Failed to establish a new connection: [Errno 111] Connection refused'))
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98091810>: Failed to establish a new connection: [Errno 111] Connection refused'))
 IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd4b90>: Failed to establish a new connection: [Errno 111] Connection refused'))
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98090690>: Failed to establish a new connection: [Errno 111] Connection refused'))
 IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd5a90>: Failed to establish a new connection: [Errno 111] Connection refused'))
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e980920d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
 IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd6c10>: Failed to establish a new connection: [Errno 111] Connection refused'))
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98092850>: Failed to establish a new connection: [Errno 111] Connection refused'))
 IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd5810>: Failed to establish a new connection: [Errno 111] Connection refused'))
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98092710>: Failed to establish a new connection: [Errno 111] Connection refused'))
 IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd5f90>: Failed to establish a new connection: [Errno 111] Connection refused'))
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98092350>: Failed to establish a new connection: [Errno 111] Connection refused'))
 IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd4cd0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98090f50>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98091d10>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98092ad0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98090f50>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98091bd0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98092850>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e980916d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98091810>: Failed to establish a new connection: [Errno 111] Connection refused'))
 IP未变化: 1.203.153.13
 尝试 https://api.ipify.org?format=json 失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
 IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98091310>: Failed to establish a new connection: [Errno 111] Connection refused'))
 IP未变化: 1.203.153.13
 IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98091a90>: Failed to establish a new connection: [Errno 111] Connection refused'))
 IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd6350>: Failed to establish a new connection: [Errno 111] Connection refused'))
-IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd5950>: Failed to establish a new connection: [Errno 111] Connection refused'))
-IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd51d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e980907d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
 IP未变化: 1.203.153.13
 尝试 https://api.ipify.org?format=json 失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
 IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd4cd0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98091a90>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98092c10>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98092490>: Failed to establish a new connection: [Errno 111] Connection refused'))
 IP未变化: 1.203.153.13
 尝试 https://api.ipify.org?format=json 失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
 IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd6c10>: Failed to establish a new connection: [Errno 111] Connection refused'))
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98092710>: Failed to establish a new connection: [Errno 111] Connection refused'))
 IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd4910>: Failed to establish a new connection: [Errno 111] Connection refused'))
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98090f50>: Failed to establish a new connection: [Errno 111] Connection refused'))
 IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd4e10>: Failed to establish a new connection: [Errno 111] Connection refused'))
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98091090>: Failed to establish a new connection: [Errno 111] Connection refused'))
 IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd5bd0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98090e10>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e980925d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e980911d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98090a50>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98091a90>: Failed to establish a new connection: [Errno 104] Connection reset by peer'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e980920d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98090cd0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98090910>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98091310>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98090cd0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98092d50>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98090a50>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98092710>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98091090>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98092350>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98092ad0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98092990>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+IP未变化: 1.203.153.13
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98092990>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98091bd0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98090a50>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98092210>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98091310>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98090690>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e980916d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98092c10>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98090690>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98090cd0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98090a50>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98090e10>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98090b90>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98091e50>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98091810>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e980920d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98091f90>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98090e10>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98090690>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98092ad0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98091a90>: Failed to establish a new connection: [Errno 104] Connection reset by peer'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e980911d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98092ad0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98090b90>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98091e50>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98092990>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98091e50>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98092710>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98091a90>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98090f50>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98092d50>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e980911d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+IP未变化: 1.203.153.13
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98090910>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98091090>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98090690>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98092990>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98092990>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e980925d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e980920d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98092210>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98092d50>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e980907d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98091bd0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e980911d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98091e50>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98092350>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98090b90>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98090a50>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98092490>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98091310>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+IP未变化: 1.203.153.13
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98091e50>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98092d50>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e980907d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
 尝试 https://api64.ipify.org?format=json 失败: HTTPSConnectionPool(host='api64.ipify.org', port=443): Read timed out. (read timeout=5)
 IP未变化: 1.203.153.13
-IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd5310>: Failed to establish a new connection: [Errno 111] Connection refused'))
-IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd5bd0>: Failed to establish a new connection: [Errno 111] Connection refused'))
-IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd4b90>: Failed to establish a new connection: [Errno 111] Connection refused'))
-IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd6c10>: Failed to establish a new connection: [Errno 111] Connection refused'))
-IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd6850>: Failed to establish a new connection: [Errno 111] Connection refused'))
-IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd5090>: Failed to establish a new connection: [Errno 111] Connection refused'))
-IP未变化: 1.203.153.13
 尝试 https://api.ipify.org?format=json 失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
 IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd5d10>: Failed to establish a new connection: [Errno 111] Connection refused'))
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98092210>: Failed to establish a new connection: [Errno 111] Connection refused'))
 IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd47d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98092ad0>: Failed to establish a new connection: [Errno 111] Connection refused'))
 IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd6990>: Failed to establish a new connection: [Errno 111] Connection refused'))
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e980925d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
 IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd6d50>: Failed to establish a new connection: [Errno 111] Connection refused'))
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98090e10>: Failed to establish a new connection: [Errno 111] Connection refused'))
 IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98092d50>: Failed to establish a new connection: [Errno 111] Connection refused'))
 IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd5d10>: Failed to establish a new connection: [Errno 111] Connection refused'))
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98092350>: Failed to establish a new connection: [Errno 111] Connection refused'))
 IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98092990>: Failed to establish a new connection: [Errno 111] Connection refused'))
 IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd5810>: Failed to establish a new connection: [Errno 111] Connection refused'))
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98091f90>: Failed to establish a new connection: [Errno 111] Connection refused'))
 IP未变化: 1.203.153.13
-IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd4910>: Failed to establish a new connection: [Errno 111] Connection refused'))
-IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd5bd0>: Failed to establish a new connection: [Errno 111] Connection refused'))
-IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
-IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd51d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
-IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
-IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd4e10>: Failed to establish a new connection: [Errno 111] Connection refused'))
-IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd51d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
-IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd4a50>: Failed to establish a new connection: [Errno 111] Connection refused'))
-IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd4910>: Failed to establish a new connection: [Errno 111] Connection refused'))
-IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd4cd0>: Failed to establish a new connection: [Errno 111] Connection refused'))
-IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
-IP未变化: 1.203.153.13
-IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd60d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
-IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd6490>: Failed to establish a new connection: [Errno 111] Connection refused'))
-IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd6350>: Failed to establish a new connection: [Errno 111] Connection refused'))
-IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd65d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
-IP未变化: 1.203.153.13
-IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd56d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
-IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd6850>: Failed to establish a new connection: [Errno 111] Connection refused'))
-IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd6490>: Failed to establish a new connection: [Errno 111] Connection refused'))
-IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd47d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
-IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd4cd0>: Failed to establish a new connection: [Errno 111] Connection refused'))
-IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd5bd0>: Failed to establish a new connection: [Errno 111] Connection refused'))
-IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
-IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd6210>: Failed to establish a new connection: [Errno 111] Connection refused'))
-IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
-IP未变化: 1.203.153.13
-IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
-IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd4b90>: Failed to establish a new connection: [Errno 111] Connection refused'))
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98090910>: Failed to establish a new connection: [Errno 111] Connection refused'))
 IP未变化: 1.203.153.13
 尝试 https://api.ipify.org?format=json 失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
 IP未变化: 1.203.153.13
 尝试 https://api.ipify.org?format=json 失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
 IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd5bd0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+尝试 https://api.ipify.org?format=json 失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
 IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd5d10>: Failed to establish a new connection: [Errno 111] Connection refused'))
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e980920d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
 IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd6490>: Failed to establish a new connection: [Errno 111] Connection refused'))
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98090910>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98090a50>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98092350>: Failed to establish a new connection: [Errno 111] Connection refused'))
 IP未变化: 1.203.153.13
 尝试 https://api.ipify.org?format=json 失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
 IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd4690>: Failed to establish a new connection: [Errno 111] Connection refused'))
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e980925d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98090b90>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98091a90>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98091bd0>: Failed to establish a new connection: [Errno 111] Connection refused'))
 IP未变化: 1.203.153.13
 IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd4910>: Failed to establish a new connection: [Errno 111] Connection refused'))
 IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd5310>: Failed to establish a new connection: [Errno 111] Connection refused'))
-IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd65d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
-IP未变化: 1.203.153.13
-IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd4910>: Failed to establish a new connection: [Errno 111] Connection refused'))
-IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98092210>: Failed to establish a new connection: [Errno 111] Connection refused'))
 IP未变化: 1.203.153.13
 尝试 https://api.ipify.org?format=json 失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
 IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd6c10>: Failed to establish a new connection: [Errno 111] Connection refused'))
 IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd4f50>: Failed to establish a new connection: [Errno 111] Connection refused'))
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98090b90>: Failed to establish a new connection: [Errno 111] Connection refused'))
 IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd5950>: Failed to establish a new connection: [Errno 111] Connection refused'))
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98090e10>: Failed to establish a new connection: [Errno 111] Connection refused'))
 IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd5a90>: Failed to establish a new connection: [Errno 111] Connection refused'))
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98092350>: Failed to establish a new connection: [Errno 111] Connection refused'))
 IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd6d50>: Failed to establish a new connection: [Errno 111] Connection refused'))
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98090690>: Failed to establish a new connection: [Errno 111] Connection refused'))
 IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd5e50>: Failed to establish a new connection: [Errno 111] Connection refused'))
-IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd6ad0>: Failed to establish a new connection: [Errno 111] Connection refused'))
-IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd4cd0>: Failed to establish a new connection: [Errno 111] Connection refused'))
-IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
-IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd6210>: Failed to establish a new connection: [Errno 111] Connection refused'))
-IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd6c10>: Failed to establish a new connection: [Errno 111] Connection refused'))
-IP未变化: 1.203.153.13
-IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
-IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd4910>: Failed to establish a new connection: [Errno 111] Connection refused'))
-IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd4a50>: Failed to establish a new connection: [Errno 111] Connection refused'))
-IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd6710>: Failed to establish a new connection: [Errno 111] Connection refused'))
-IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd4690>: Failed to establish a new connection: [Errno 111] Connection refused'))
-IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd6e90>: Failed to establish a new connection: [Errno 111] Connection refused'))
-IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd6350>: Failed to establish a new connection: [Errno 111] Connection refused'))
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e980920d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
 IP未变化: 1.203.153.13
 尝试 https://api.ipify.org?format=json 失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
 IP未变化: 1.203.153.13
@@ -262,35 +374,118 @@ IP未变化: 1.203.153.13
 IP未变化: 1.203.153.13
 尝试 https://api.ipify.org?format=json 失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
 IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd6d50>: Failed to establish a new connection: [Errno 111] Connection refused'))
+尝试 https://api.ipify.org?format=json 失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
 IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd6ad0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+尝试 https://api.ipify.org?format=json 失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98090910>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98092c10>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e980907d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
 IP未变化: 1.203.153.13
 IP未变化: 1.203.153.13
 尝试 https://api.ipify.org?format=json 失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
 IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd5bd0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e980911d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
 IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd5950>: Failed to establish a new connection: [Errno 111] Connection refused'))
-IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
-IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd4cd0>: Failed to establish a new connection: [Errno 111] Connection refused'))
-IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd6210>: Failed to establish a new connection: [Errno 111] Connection refused'))
-IP未变化: 1.203.153.13
-IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd56d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
-IP未变化: 1.203.153.13
-IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd6850>: Failed to establish a new connection: [Errno 111] Connection refused'))
-IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd5090>: Failed to establish a new connection: [Errno 111] Connection refused'))
-IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd60d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e980925d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
 IP未变化: 1.203.153.13
 尝试 https://api.ipify.org?format=json 失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
 IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd6710>: Failed to establish a new connection: [Errno 111] Connection refused'))
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e980911d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
 IP未变化: 1.203.153.13
-尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fb072dd5810>: Failed to establish a new connection: [Errno 111] Connection refused'))
+尝试 https://api.ipify.org?format=json 失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+尝试 https://api64.ipify.org?format=json 失败: HTTPSConnectionPool(host='api64.ipify.org', port=443): Read timed out. (read timeout=5)
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98091f90>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+IP未变化: 1.203.153.13
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e980920d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98091310>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98091a90>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+IP未变化: 1.203.153.13
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98090f50>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98091950>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98092210>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98090910>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98092d50>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98091950>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e980920d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98091d10>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e980907d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e980916d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98090e10>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e980907d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98090cd0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98090a50>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e980911d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98092e90>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98090b90>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98092d50>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98090cd0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))
+IP未变化: 1.203.153.13
+尝试 https://api.ipify.org?format=json 失败: HTTPSConnectionPool(host='api.ipify.org', port=443): Max retries exceeded with url: /?format=json (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f3e98091310>: Failed to establish a new connection: [Errno 111] Connection refused'))
