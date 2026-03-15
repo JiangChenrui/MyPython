@@ -1,9 +1,10 @@
 # -*- coding: utf-8 -*-
 import sys
 import time
-import requests
-import json
 import os
+import socket
+import struct
+import logging
 from email.mime.multipart import MIMEMultipart  # 打包多个部分的邮件内容（正文、附件、图片...）
 from email.mime.text import MIMEText  # 邮件的正文内容
 from email.mime.application import MIMEApplication  # 用来发送附件
@@ -12,6 +13,17 @@ import smtplib  # 发送邮件
 from email.utils import parseaddr, formataddr
 from email.header import Header
 from datetime import datetime
+
+# 配置日志：同时输出到控制台和文件，格式带时间戳
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s [%(levelname)s] %(message)s',
+    datefmt='%Y-%m-%d %H:%M:%S',
+    handlers=[
+        logging.StreamHandler(),  # 输出到控制台（nohup 重定向到 check_ip.log）
+    ]
+)
+logger = logging.getLogger(__name__)
 
 
 class EmailAlert(object):
@@ -36,31 +48,64 @@ class EmailAlert(object):
         self.server.login(self.from_addr, self.password)
 
     def get_public_ip(self):
-        """获取当前公网IP地址"""
-        try:
-            # 使用多个API作为备选，提高可靠性
-            apis = [
-                'https://api.ipify.org?format=json',
-                'https://api64.ipify.org?format=json',
-                'https://ifconfig.me/ip',
-            ]
+        """通过 STUN 协议获取公网 IP（UDP，无需 HTTP API，纯标准库）"""
+        STUN_SERVERS = [
+            ('stun.l.google.com',    19302),
+            ('stun1.l.google.com',   19302),
+            ('stun.cloudflare.com',  3478),
+            ('stun.miwifi.com',      3478),  # 小米
+        ]
+        MAGIC_COOKIE          = 0x2112A442
+        BINDING_REQUEST       = b'\x00\x01\x00\x00'
+        BINDING_RESPONSE      = 0x0101
+        ATTR_MAPPED_ADDRESS     = 0x0001
+        ATTR_XOR_MAPPED_ADDRESS = 0x0020
 
-            for api in apis:
-                try:
-                    response = requests.get(api, timeout=5)
-                    if response.status_code == 200:
-                        if 'json' in api:
-                            return response.json().get('ip')
-                        else:
-                            return response.text.strip()
-                except Exception as e:
-                    print(f"尝试 {api} 失败: {e}")
+        transaction_id = os.urandom(12)
+        request = BINDING_REQUEST + struct.pack('>I', MAGIC_COOKIE) + transaction_id
+
+        for host, port in STUN_SERVERS:
+            sock = None
+            try:
+                sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+                sock.settimeout(3)
+                sock.sendto(request, (host, port))
+                data, _ = sock.recvfrom(1024)
+
+                if len(data) < 20:
                     continue
 
-            return None
-        except Exception as e:
-            print(f"获取公网IP失败: {e}")
-            return None
+                msg_type, _ = struct.unpack('>HH', data[:4])
+                if msg_type != BINDING_RESPONSE:
+                    continue
+
+                # 解析响应属性
+                offset = 20
+                while offset + 4 <= len(data):
+                    attr_type, attr_len = struct.unpack('>HH', data[offset:offset + 4])
+                    offset += 4
+                    attr_val = data[offset:offset + attr_len]
+
+                    if attr_type == ATTR_XOR_MAPPED_ADDRESS and len(attr_val) >= 8:
+                        if attr_val[1] == 1:  # IPv4
+                            xaddr = struct.unpack('>I', attr_val[4:8])[0] ^ MAGIC_COOKIE
+                            return socket.inet_ntoa(struct.pack('>I', xaddr))
+
+                    elif attr_type == ATTR_MAPPED_ADDRESS and len(attr_val) >= 8:
+                        if attr_val[1] == 1:  # IPv4
+                            return socket.inet_ntoa(attr_val[4:8])
+
+                    # 属性按 4 字节对齐
+                    offset += attr_len + (4 - attr_len % 4) % 4
+
+            except Exception as e:
+                logger.warning(f"STUN 服务器 {host}:{port} 失败: {e}")
+            finally:
+                if sock:
+                    sock.close()
+
+        logger.error("所有 STUN 服务器均失败，无法获取公网 IP")
+        return None
 
     def get_last_ip(self):
         """从文件读取上次保存的IP"""
@@ -101,10 +146,10 @@ class EmailAlert(object):
 
             # 发送邮件
             self.server.sendmail(self.from_addr, [self.send_addr], msg.as_string())
-            print(f"邮件发送成功: {old_ip} -> {new_ip}")
+            logger.info(f"邮件发送成功: {old_ip} -> {new_ip}")
             return True
         except Exception as e:
-            print(f"邮件发送失败: {e}")
+            logger.error(f"邮件发送失败: {e}")
             return False
 
     def check_ip_is_change(self):
@@ -112,26 +157,26 @@ class EmailAlert(object):
         current_ip = self.get_public_ip()
 
         if current_ip is None:
-            print("无法获取当前公网IP")
+            logger.error("无法获取当前公网IP")
             return False
 
         last_ip = self.get_last_ip()
 
         if last_ip is None:
             # 首次运行，保存当前IP
-            print(f"首次检测，当前IP: {current_ip}")
+            logger.info(f"首次检测，当前IP: {current_ip}")
             self.save_ip(current_ip)
             self.send_email(None, current_ip)
             return True
 
         if current_ip != last_ip:
             # IP发生变化
-            print(f"IP已变化: {last_ip} -> {current_ip}")
+            logger.warning(f"IP已变化: {last_ip} -> {current_ip}")
             self.send_email(last_ip, current_ip)
             self.save_ip(current_ip)
             return True
         else:
-            print(f"IP未变化: {current_ip}")
+            logger.info(f"IP未变化: {current_ip}")
             return False
 
     def close(self):
@@ -155,9 +200,9 @@ if __name__ == '__main__':
             time.sleep(300)  # 每5分钟检查一次
 
     except KeyboardInterrupt:
-        print("\n程序已停止")
+        logger.info("程序已停止")
     except Exception as e:
-        print(f"程序运行出错: {e}")
+        logger.exception(f"程序运行出错: {e}")
     finally:
         if 'email_alert' in locals():
             email_alert.close()
