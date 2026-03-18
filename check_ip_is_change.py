@@ -3,7 +3,6 @@ import sys
 import time
 import os
 import socket
-import struct
 import logging
 from email.mime.multipart import MIMEMultipart  # 打包多个部分的邮件内容（正文、附件、图片...）
 from email.mime.text import MIMEText  # 邮件的正文内容
@@ -24,6 +23,7 @@ logging.basicConfig(
     ]
 )
 logger = logging.getLogger(__name__)
+DOMAIN = 'jcrnas.top'  # 要监控的域名
 
 
 class EmailAlert(object):
@@ -48,64 +48,12 @@ class EmailAlert(object):
         self.server.login(self.from_addr, self.password)
 
     def get_public_ip(self):
-        """通过 STUN 协议获取公网 IP（UDP，无需 HTTP API，纯标准库）"""
-        STUN_SERVERS = [
-            ('stun.l.google.com',    19302),
-            ('stun1.l.google.com',   19302),
-            ('stun.cloudflare.com',  3478),
-            ('stun.miwifi.com',      3478),  # 小米
-        ]
-        MAGIC_COOKIE          = 0x2112A442
-        BINDING_REQUEST       = b'\x00\x01\x00\x00'
-        BINDING_RESPONSE      = 0x0101
-        ATTR_MAPPED_ADDRESS     = 0x0001
-        ATTR_XOR_MAPPED_ADDRESS = 0x0020
-
-        transaction_id = os.urandom(12)
-        request = BINDING_REQUEST + struct.pack('>I', MAGIC_COOKIE) + transaction_id
-
-        for host, port in STUN_SERVERS:
-            sock = None
-            try:
-                sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-                sock.settimeout(3)
-                sock.sendto(request, (host, port))
-                data, _ = sock.recvfrom(1024)
-
-                if len(data) < 20:
-                    continue
-
-                msg_type, _ = struct.unpack('>HH', data[:4])
-                if msg_type != BINDING_RESPONSE:
-                    continue
-
-                # 解析响应属性
-                offset = 20
-                while offset + 4 <= len(data):
-                    attr_type, attr_len = struct.unpack('>HH', data[offset:offset + 4])
-                    offset += 4
-                    attr_val = data[offset:offset + attr_len]
-
-                    if attr_type == ATTR_XOR_MAPPED_ADDRESS and len(attr_val) >= 8:
-                        if attr_val[1] == 1:  # IPv4
-                            xaddr = struct.unpack('>I', attr_val[4:8])[0] ^ MAGIC_COOKIE
-                            return socket.inet_ntoa(struct.pack('>I', xaddr))
-
-                    elif attr_type == ATTR_MAPPED_ADDRESS and len(attr_val) >= 8:
-                        if attr_val[1] == 1:  # IPv4
-                            return socket.inet_ntoa(attr_val[4:8])
-
-                    # 属性按 4 字节对齐
-                    offset += attr_len + (4 - attr_len % 4) % 4
-
-            except Exception as e:
-                logger.warning(f"STUN 服务器 {host}:{port} 失败: {e}")
-            finally:
-                if sock:
-                    sock.close()
-
-        logger.error("所有 STUN 服务器均失败，无法获取公网 IP")
-        return None
+        """查询 jcrnas.top 域名对应的 IP"""
+        try:
+            return socket.gethostbyname(DOMAIN)
+        except socket.gaierror as e:
+            logger.error(f"域名 {DOMAIN} 解析失败: {e}")
+            return None
 
     def get_last_ip(self):
         """从文件读取上次保存的IP"""
