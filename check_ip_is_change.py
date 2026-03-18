@@ -197,7 +197,7 @@ if __name__ == '__main__':
         # 如果需要持续监控，可以添加循环
         while True:
             email_alert.check_ip_is_change()
-            time.sleep(300)  # 每5分钟检查一次
+            time.sleep(600)  # 每5分钟检查一次
 
     except KeyboardInterrupt:
         logger.info("程序已停止")
