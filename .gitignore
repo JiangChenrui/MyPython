@@ -9,6 +9,7 @@ nohup.out
 venv
 mp_prize
 redis_test.py
+check_ip.log
 *.jpeg
 *.jpg
 *.png
