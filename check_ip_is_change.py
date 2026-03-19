@@ -67,9 +67,24 @@ class EmailAlert(object):
         with open(self.IP_FILE, 'w') as f:
             f.write(ip)
 
+    def _ensure_connection(self):
+        """确保SMTP连接有效，如无效则重新连接"""
+        try:
+            # 尝试发送空数据检查连接状态
+            self.server.noop()[0] == 250
+        except:
+            # 连接已失效，重新连接
+            smtp_server = 'smtp.163.com'
+            self.server = smtplib.SMTP()
+            self.server.connect(smtp_server, 25)
+            self.server.login(self.from_addr, self.password)
+            logger.info("SMTP已重新连接")
+
     def send_email(self, old_ip, new_ip):
         """发送IP变化通知邮件"""
         try:
+            # 确保连接有效
+            self._ensure_connection()
             # 创建邮件对象
             msg = MIMEMultipart()
             msg['From'] = formataddr(('IP监控系统', self.from_addr))
